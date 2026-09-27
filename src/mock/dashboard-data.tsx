@@ -1,0 +1,48 @@
+import { MaintenanceCardProps } from '../components/MaintenanceCard';
+
+export const MOCK_MAINTENANCE_REQUESTS: MaintenanceCardProps[] = [
+  {
+    solCode: 'SOL-000001',
+    plantName: 'PLANTA 01',
+    title: 'Compresor Industrial',
+    equipmentCode: 'EQ-CMP-001',
+    maintenanceType: 'Correctivo',
+    priority: 'Alta',
+    registrationDate: '24/10/2023',
+    requestedBy: 'Operador Turno A',
+    status: 'PENDIENTE',
+  },
+  {
+    solCode: 'SOL-000002',
+    plantName: 'PLANTA 02',
+    title: 'Bomba Centrífuga B-02',
+    equipmentCode: 'EQ-BMB-002',
+    maintenanceType: 'Preventivo',
+    priority: 'Media',
+    registrationDate: '23/10/2023',
+    requestedBy: 'Supervisor Línea 3',
+    status: 'APROBADA',
+  },
+  {
+    solCode: 'SOL-000003',
+    plantName: 'PLANTA 01',
+    title: 'Torno CNC Principal',
+    equipmentCode: 'EQ-TRN-005',
+    maintenanceType: 'Correctivo',
+    priority: 'Crítica',
+    registrationDate: '22/10/2023',
+    requestedBy: 'Jefe de Taller',
+    status: 'RECHAZADA',
+  },
+  {
+    solCode: 'SOL-000004',
+    plantName: 'PLANTA 03',
+    title: 'Cinta Transportadora CV-10',
+    equipmentCode: 'EQ-CNT-010',
+    maintenanceType: 'Preventivo',
+    priority: 'Baja',
+    registrationDate: '21/10/2023',
+    requestedBy: 'Técnico de Planta',
+    status: 'PENDIENTE',
+  },
+];
